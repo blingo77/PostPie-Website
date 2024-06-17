@@ -1,0 +1,50 @@
+.navBar{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(16, 102, 184);
+    align-items: center;
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+.navBar .links{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.navBar h1{
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navBar .nav-link{
+    margin-left: 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.navBar .nav-link:hover{
+    transition: all 0.5s;
+    color: rgb(167, 167, 167);
+}
+.navBar .logout-button{
+    margin-left: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(212, 106, 106);
+    color: white;
+}
+a .pfp-image{
+    margin-left: 5px;
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+    
+}
+.title-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.navBar img{
+    margin-left: 10px;
+}
